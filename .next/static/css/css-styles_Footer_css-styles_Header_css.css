@@ -1,0 +1,84 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./styles/Footer.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+}
+
+.subscribe_div{
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.subscribe_btn{
+    margin-left: 1vw;
+    border: rgb(88, 87, 87) 1px solid;
+    color: rgb(88, 87, 87);
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-radius: 5px;
+}
+
+.second_footer li{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: small;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./styles/Header.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.Header{
+    width:100%;
+    padding-bottom:1.5vw;
+    border-bottom: rgb(228, 224, 224) 1px solid;
+}
+
+.black_header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 20px;
+    color: #EB4C6B;
+    font-size: small;
+}
+
+p{
+    font-family: "Simplon Norm",sans-serif;
+}
+
+.black_header_iconDiv{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-right: 2vw;
+    width: 40px;
+}
+
+.black_header_iconDiv img{
+    margin-right:  2vw;
+}
+
+.main_header{
+    padding-top: 3vw;
+    width: 100%;
+}
+
+.text_logo{
+    width: 8vw;
+}
+
+.discription{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.dropdown li{
+    margin: 1vw;
+}

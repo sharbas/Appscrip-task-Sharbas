@@ -1,0 +1,50 @@
+.Header{
+    width:100%;
+    padding-bottom:1.5vw;
+    border-bottom: rgb(228, 224, 224) 1px solid;
+}
+
+.black_header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 20px;
+    color: #EB4C6B;
+    font-size: small;
+}
+
+p{
+    font-family: "Simplon Norm",sans-serif;
+}
+
+.black_header_iconDiv{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-right: 2vw;
+    width: 40;
+}
+
+.black_header_iconDiv img{
+    margin-right:  2vw;
+}
+
+.main_header{
+    padding-top: 3vw;
+    width: 100%;
+}
+
+.text_logo{
+    width: 8vw;
+}
+
+.discription{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.dropdown li{
+    margin: 1vw;
+}

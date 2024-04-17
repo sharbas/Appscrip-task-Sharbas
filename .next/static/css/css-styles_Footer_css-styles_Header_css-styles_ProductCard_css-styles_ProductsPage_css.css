@@ -1,0 +1,255 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./styles/Footer.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+}
+
+.subscribe_div{
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.subscribe_btn{
+    margin-left: 1vw;
+    border: rgb(88, 87, 87) 1px solid;
+    color: rgb(88, 87, 87);
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-radius: 5px;
+}
+
+.second_footer li{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: small;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./styles/Header.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.Header{
+    width:100%;
+    padding-bottom:1.5vw;
+    border-bottom: rgb(228, 224, 224) 1px solid;
+}
+
+.black_header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 20px;
+    color: #EB4C6B;
+    font-size: small;
+}
+
+p{
+    font-family: "Simplon Norm",sans-serif;
+}
+
+.black_header_iconDiv{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-right: 2vw;
+    width: 40;
+}
+
+.black_header_iconDiv img{
+    margin-right:  2vw;
+}
+
+.main_header{
+    padding-top: 3vw;
+    width: 100%;
+}
+
+.text_logo{
+    width: 8vw;
+}
+
+.discription{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.dropdown li{
+    margin: 1vw;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./styles/ProductCard.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.product-card {
+  
+   
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 10rem; 
+    height: 18rem; 
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-image {
+    margin-bottom: 1rem;
+    height: 66.67%; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-image img {
+    object-fit: cover;
+    border-radius: 0.5rem; 
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-title {
+    font-size: 1.25rem; 
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pricing-info {
+    font-size: 0.75rem; 
+    color: #666; 
+    margin-bottom: 0.5rem;
+  }
+  
+  .pricing-info .underline {
+    text-decoration: underline;
+  }
+  
+  .heart-icon {
+    cursor: pointer;
+  }
+  
+  .heart-icon:hover {
+    color: red; 
+  }
+  
+  /* Responsive Styles */
+  
+  @media (min-width: 640px) {
+    .product-card {
+      width: 15rem; 
+      height: 24rem; 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .product-card {
+      width: 16rem; 
+    }
+  }
+  
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./styles/ProductsPage.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.productsPage {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-top: 2vw;
+}
+
+.filterHeader{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-bottom: rgb(228, 224, 224) 1px solid;
+    border-top: rgb(228, 224, 224) 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Product_listing{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2vw;
+}
+
+
+
+.filterHeader span{
+    text-decoration: underline;
+    color: rgb(56, 55, 55);
+}
+
+
+.product_card {
+    margin: 0.5vw;
+    width: 12vw;
+    height: 25vw;
+}
+
+.product_image {
+    width: 100%;
+    height: 80%;
+}
+
+.product_image img {
+    max-width: 100%;
+    max-height: 80%;
+    align-self: center;
+}
+
+.product_details{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.product_details span {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .product_card {
+        width: 100%;
+    }
+}
+
+.sub_heading{
+    border-bottom: rgb(228, 224, 224) 1px solid;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.sub_heading h2{
+    font-weight: 500;
+}
+
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #333; 
+    width: 16px;
+    height: 16px;
+    margin-right: 5px; 
+    vertical-align: middle;
+  }
+  
+
+  input[type="checkbox"]:checked {
+    background-color: #333; 
+    border-color: #333; 
+  }
+  
+  label {
+    vertical-align: middle;
+  }
+  
+  .sub_heading_subheads{
+    margin-top: 1vw;
+  }
